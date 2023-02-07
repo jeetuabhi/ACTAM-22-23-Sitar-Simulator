@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&family=Rubik+Vinyl&display=swap');
+
+body{
+    width:98%;
+    height: 96vh;
+    background-color: rgb(255, 0, 0);
+    font-family: 'Merriweather', serif;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+header{
+    position: relative;
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 25px 40px #000;
+    background-image: url('img/home-background.jpg');
+    opacity: 0.8;
+    z-index: 1;
+}
+.left-sidebar {
+    position: absolute;
+    font-size: 20px;
+    top: 140px;
+}
+ul{
+    position: relative;
+    width: 120px;
+}
+ul li{
+    list-style:circle;
+}
+ul li a{
+    color: black;
+    display: block;
+    font-weight: 100;
+    width: 0%;
+    text-align: center;
+    transition: 0.5s ease;
+}
+ul li a:hover{
+    width: 100%;
+    color: rgb(1, 52, 255);
+}
+.btn{
+    font-size: 50px;
+    height: 60px;
+    width: 300px;
+    position: absolute;
+    left: 70%;
+    top: 80%;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    background: rgb(1, 0, 0);
+    transition: transform 0.s ease;
+}
+.btn:hover{
+    font-size: 40px;
+    border-radius: 50%;
+}
+.headline{
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 40px;
+    margin-top: -40px;
+    margin-left: 70px;
+}
+.social{
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+}
+.social img{
+    width: 25px;
+    display: block;
+    margin: 25px 5px;
+    transition: transform 0.s ease;
+}
+.social img:hover{
+    width: 35px;
+}

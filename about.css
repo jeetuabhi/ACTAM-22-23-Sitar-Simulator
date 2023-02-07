@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Righteous', cursive;
+    box-sizing: border-box;
+}
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background: url('/img/about-bc.jpg');
+    background-size: cover;
+}
+.about img{
+    height: auto;
+    width: 400px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family:'Martian Mono', monospace;
+}
+.about-text h3{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-family: 'Martian Mono', monospace;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    font-family: 'Merriweather', serif;
+}

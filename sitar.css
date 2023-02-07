@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@600&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    background:url('/img/sitar background.png');
+    background-size: cover;
+    justify-content: space-evenly;
+    display: flex;
+    align-items:end;
+}
+button {
+    position: relative;
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+    outline: none;
+    border: 4px #090909 solid;
+    background: linear-gradient(145deg, #171717, #444245);
+    box-shadow: inset 2px 2px 0px #7d7c7e, inset -2px -2px 0px #1c1c1c;
+    color: wheat;
+    font-family: 'Noto Serif Khojki', serif;
+  }
+button:hover{
+    color: red;
+}
+button:active::before{
+    position: absolute;
+    content: '';
+    height: 7.25em;
+    width: 7.25em;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.9);
+    border-radius: inherit;
+    background: linear-gradient(145deg, #262626, #606060);
+    box-shadow: 11px 11px 22px #141414,-11px -11px 22px #525252;
+    z-index: -1;
+}
+.sidebar {
+    position: fixed;
+    width: 150px;
+    height: 25%;
+    left: 5px;
+}
