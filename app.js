@@ -1,5 +1,5 @@
 function play(event,isOnclick){
-    let root_path = '/audio/';
+    let root_path = '/ACTAM-22-23-Sitar-Simulator/audio/';
     let btn_name = "";
     if(isOnclick){
         console.log(event.target.name);
