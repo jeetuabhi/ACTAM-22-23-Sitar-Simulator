@@ -14,7 +14,7 @@ function play(event,isOnclick){
         
         case "q":
         case "play1":
-            aud = new Audio('/audio/C_sa_mid.wav');
+            aud = new Audio('/ACTAM-22-23-Sitar-Simulator/audio/C_sa_mid.wav');
             aud.play();
             document.getElementById("btn-Q").style.color='#FF0000';
             document.getElementById("btn-Q").style.boxShadow='11px 11px 22px #141414';
@@ -25,7 +25,7 @@ function play(event,isOnclick){
           break;
         case "w":
         case "play2":
-            aud = new Audio('/audio/B_ni_mid.wav');
+            aud = new Audio('/ACTAM-22-23-Sitar-Simulator/audio/B_ni_mid.wav');
             aud.play();
             document.getElementById("btn-W").style.color='#FF0000';
             document.getElementById("btn-W").style.boxShadow='11px 11px 22px #141414';
@@ -36,7 +36,7 @@ function play(event,isOnclick){
           break;
         case "e":
         case "play3":
-            aud = new Audio('/audio/C_sa_mid.wav');
+            aud = new Audio('/ACTAM-22-23-Sitar-Simulator/audio/C_sa_mid.wav');
             aud.play();
             document.getElementById("btn-E").style.color='#FF0000';
             document.getElementById("btn-E").style.boxShadow='11px 11px 22px #141414';
@@ -47,7 +47,7 @@ function play(event,isOnclick){
           break;
         case "r":
         case "play4":
-            aud = new Audio('/audio/D_re_mid.wav');
+            aud = new Audio('/ACTAM-22-23-Sitar-Simulator/audio/D_re_mid.wav');
             aud.play();
             document.getElementById("btn-R").style.color='#FF0000';
             document.getElementById("btn-R").style.boxShadow='11px 11px 22px #141414';
@@ -58,7 +58,7 @@ function play(event,isOnclick){
             break;
         case "t":
         case "play5":
-            aud = new Audio('/audio/E_ga_mid.wav');
+            aud = new Audio('/ACTAM-22-23-Sitar-Simulator/audio/E_ga_mid.wav');
             aud.play();
             document.getElementById("btn-T").style.color='#FF0000';
             document.getElementById("btn-T").style.boxShadow='11px 11px 22px #141414';
@@ -69,7 +69,7 @@ function play(event,isOnclick){
             break;
         case "y":
         case "play6":
-            aud = new Audio('/audio/F_ma_mid.wav');
+            aud = new Audio('/ACTAM-22-23-Sitar-Simulator/audio/F_ma_mid.wav');
             aud.play();
             document.getElementById("btn-Y").style.color='#FF0000';
             document.getElementById("btn-Y").style.boxShadow='11px 11px 22px #141414';
@@ -80,7 +80,7 @@ function play(event,isOnclick){
             break;
         case "u":
         case "play7":
-            aud = new Audio('/audio/G_pa_mid.wav');
+            aud = new Audio('/ACTAM-22-23-Sitar-Simulator/audio/G_pa_mid.wav');
             aud.play();
             document.getElementById("btn-U").style.color='#FF0000';
             document.getElementById("btn-U").style.boxShadow='11px 11px 22px #141414';
@@ -91,7 +91,7 @@ function play(event,isOnclick){
             break;
         case "i":
         case "play8":
-            aud = new Audio('/audio/A_Dha_mid.wav');
+            aud = new Audio('/ACTAM-22-23-Sitar-Simulator/audio/A_Dha_mid.wav');
             aud.play();
             document.getElementById("btn-I").style.color='#FF0000';
             document.getElementById("btn-I").style.boxShadow='11px 11px 22px #141414';
@@ -102,7 +102,7 @@ function play(event,isOnclick){
             break;
         case "o":
         case "play9":
-            aud = new Audio('/audio/B_ni_mid.wav');
+            aud = new Audio('/ACTAM-22-23-Sitar-Simulator/audio/B_ni_mid.wav');
             aud.play();
             document.getElementById("btn-O").style.color='#FF0000';
             document.getElementById("btn-O").style.boxShadow='11px 11px 22px #141414';
@@ -113,7 +113,7 @@ function play(event,isOnclick){
             break;
         case "k":
         case "play10":
-            aud = new Audio('/audio/C_sa_high.wav');
+            aud = new Audio('/ACTAM-22-23-Sitar-Simulator/audio/C_sa_high.wav');
             aud.play();
             document.getElementById("btn-K").style.color='#FF0000';
             document.getElementById("btn-K").style.boxShadow='11px 11px 22px #141414';
@@ -124,7 +124,7 @@ function play(event,isOnclick){
             break;
         case "l":
         case "play11":
-            aud = new Audio('/audio/D_re_high.wav');
+            aud = new Audio('/ACTAM-22-23-Sitar-Simulator/audio/D_re_high.wav');
             aud.play();
             document.getElementById("btn-L").style.color='#FF0000';
             document.getElementById("btn-L").style.boxShadow='11px 11px 22px #141414';
