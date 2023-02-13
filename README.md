@@ -11,3 +11,4 @@ Sitar page: It constitutes of the sitar model in which 6 string sitar is used an
 
 The buttons can be accessed both from keyboard keys and mouse clicks.
 More details can be found on this demo video:https://www.youtube.com/watch?v=3AuEM-YhDtA
+The website can be accessed directly from : https://jeetuabhi.github.io/ACTAM-22-23-Sitar-Simulator/
