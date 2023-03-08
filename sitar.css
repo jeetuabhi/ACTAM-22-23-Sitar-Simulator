@@ -3,7 +3,7 @@
 body {
     height: 100vh;
     margin: 0;
-    background:url('/img/sitar background.png');
+    background:url('img/sitar background.png');
     background-size: cover;
     justify-content: space-evenly;
     display: flex;
