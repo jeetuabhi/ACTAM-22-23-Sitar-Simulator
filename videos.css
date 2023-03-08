@@ -3,7 +3,7 @@
 body{
     width: 98%;
     padding: 78px 0px;
-    background:url('/img/videos bc.jpeg');
+    background:url('img/videos bc.jpeg');
     background-size: cover;
     justify-content: space-evenly;
 }
