@@ -10,7 +10,7 @@
 .about{
     width: 100%;
     padding: 78px 0px;
-    background: url('/img/about-bc.jpg');
+    background: url('img/about-bc.jpg');
     background-size: cover;
 }
 .about img{
